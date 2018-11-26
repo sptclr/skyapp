@@ -1,0 +1,25 @@
+{
+  "name": "skyapp",
+  "version": "1.0.0",
+  "description": "Learn HTML and CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sptclr/skyapp.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "Front",
+    "End"
+  ],
+  "author": "Fajar Muhamad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sptclr/skyapp/issues"
+  },
+  "homepage": "https://github.com/sptclr/skyapp#readme"
+}

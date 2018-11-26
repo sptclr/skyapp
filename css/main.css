@@ -1,0 +1,257 @@
+/*
+
+	SkyApp Bootstrap Base Themes
+	author: Fajar
+	version: 0.0.1
+
+*/
+/*BASE - Base styles, variables, mixins, etc*/
+/* Font Colors */
+/* Bacground Colors */
+/*showace Area*/
+/* mixins */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/base\/_normalize\.scss}line{font-family:\000031}}
+h1, h2, h3, h4, h5 {
+  margin-top: 0px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/base\/_normalize\.scss}line{font-family:\000035}}
+.page-header {
+  margin-top: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/base\/_normalize\.scss}line{font-family:\000039}}
+.no-pad-top {
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/base\/_base\.scss}line{font-family:\000031}}
+body {
+  font-family: "Segoe UI", "Segoe WP", "Segoe Regular", sans-serif;
+  font-size: 15px;
+  line-height: 1.7em;
+  color: #666666; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/base\/_base\.scss}line{font-family:\000038}}
+a {
+  color: #00aff0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/base\/_base\.scss}line{font-family:\0000312}}
+ul, li {
+  list-style: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/base\/_base\.scss}line{font-family:\0000316}}
+input, textarea, button {
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/base\/_base\.scss}line{font-family:\0000320}}
+img.device {
+  width: 100%; }
+
+/*MODULES - Invidividual site components */
+/* Blocks */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/modules\/_blocks\.scss}line{font-family:\000033}}
+.block, .block-primary, .block-secondary, .block-light, .block-dark {
+  padding: 15px;
+  margin-bottom: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/modules\/_blocks\.scss}line{font-family:\000037}}
+  .block h3, .block-primary h3, .block-secondary h3, .block-light h3, .block-dark h3 {
+    margin-top: 0;
+    padding-top: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/modules\/_blocks\.scss}line{font-family:\0000314}}
+.block-primary {
+  background: #00aff0;
+  color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/modules\/_blocks\.scss}line{font-family:\0000319}}
+.block-secondary {
+  background: #7fba00;
+  color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/modules\/_blocks\.scss}line{font-family:\0000324}}
+.block-light {
+  background: #efeef2;
+  color: #666666; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/modules\/_blocks\.scss}line{font-family:\0000329}}
+.block-dark {
+  background: #333333;
+  color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/modules\/_blocks\.scss}line{font-family:\0000334}}
+.block-center {
+  text-align: center !important; }
+
+/*lists */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/modules\/_typography\.scss}line{font-family:\000033}}
+ul.list, ul.list-feature {
+  margin-bottom: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/modules\/_typography\.scss}line{font-family:\000038}}
+.list-feature {
+  margin: 0;
+  padding: 0;
+  width: 80%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/modules\/_typography\.scss}line{font-family:\0000314}}
+  .list-feature li {
+    line-height: 3.2em;
+    border-bottom: 1px solid #cccccc; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/modules\/_typography\.scss}line{font-family:\0000319}}
+  .list-feature li:last-child {
+    border: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/modules\/_typography\.scss}line{font-family:\0000323}}
+  .list-feature span {
+    vertical-align: top;
+    padding-top: 9px;
+    font-size: 120%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/modules\/_typography\.scss}line{font-family:\0000329}}
+  .list-feature i {
+    margin-top: 9px;
+    margin-right: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/modules\/_typography\.scss}line{font-family:\0000336}}
+.fa-2 {
+  font-size: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/modules\/_typography\.scss}line{font-family:\0000339}}
+.fa-3 {
+  font-size: 24px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/modules\/_typography\.scss}line{font-family:\0000342}}
+.fa-4 {
+  font-size: 27px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/modules\/_typography\.scss}line{font-family:\0000345}}
+.fa-5 {
+  font-size: 35px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/modules\/_typography\.scss}line{font-family:\0000348}}
+.fa-6 {
+  font-size: 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/modules\/_typography\.scss}line{font-family:\0000352}}
+.fa-primary {
+  color: #00aff0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/modules\/_typography\.scss}line{font-family:\0000357}}
+.fa-border {
+  border: 1px solid #00aff0;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 13px 15px;
+  width: 70px;
+  margin-bottom: 10px; }
+
+/* headings */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/modules\/_typography\.scss}line{font-family:\0000366}}
+.heading-primary {
+  color: #00aff0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/modules\/_typography\.scss}line{font-family:\0000369}}
+.heading-secondary {
+  color: #7fba00; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/modules\/_typography\.scss}line{font-family:\0000372}}
+.heading-light {
+  color: #efeef2; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/modules\/_typography\.scss}line{font-family:\0000375}}
+.heading-dark {
+  color: #333333; }
+
+/* Buttons */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/modules\/_buttons\.scss}line{font-family:\000033}}
+.btn-primary {
+  background: #00aff0;
+  color: #fff;
+  border: 2px solid #ffffff; }
+
+/* sections */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/modules\/_sections\.scss}line{font-family:\000032}}
+section {
+  padding: 30px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/modules\/_sections\.scss}line{font-family:\000036}}
+.section-showcase {
+  height: 400px;
+  background: url("../img/showcase.jpg") no-repeat top center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/modules\/_sections\.scss}line{font-family:\0000310}}
+  .section-showcase .showcase-content {
+    padding: 90px 15px;
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/modules\/_sections\.scss}line{font-family:\0000315}}
+  .section-showcase h1 {
+    color: #00aff0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/modules\/_sections\.scss}line{font-family:\0000320}}
+.section-primary {
+  background: #00aff0;
+  color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/modules\/_sections\.scss}line{font-family:\0000323}}
+.section-secondary {
+  background: #7fba00;
+  color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/modules\/_sections\.scss}line{font-family:\0000326}}
+.section-light {
+  background: #efeef2;
+  color: #666666; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/modules\/_sections\.scss}line{font-family:\0000329}}
+.section-dark {
+  background: #333333;
+  color: #fff; }
+
+/* SearchBox */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/modules\/_forms\.scss}line{font-family:\000033}}
+.search {
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/modules\/_forms\.scss}line{font-family:\000036}}
+  .search h3 {
+    margin-top: 0;
+    padding-top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/modules\/_forms\.scss}line{font-family:\0000311}}
+  .search input[type="search"] {
+    border: 0;
+    height: 50px;
+    width: 80%;
+    border: 2px solid #00aff0;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-bottom: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/modules\/_forms\.scss}line{font-family:\0000321}}
+  .search button {
+    border: 0;
+    background: none;
+    padding: 0;
+    vertical-align: top;
+    margin-left: -4px; }
+
+/*LAYOUT - page layout Styles */
+/* Navbar */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/layouts\/_nav\.scss}line{font-family:\000033}}
+.navbar {
+  width: 90%;
+  margin: auto;
+  border-right: 1px solid #e7e7e7;
+  border-left: 1px solid #e7e7e7;
+  border-color: #e7e7e7;
+  min-height: 60px;
+  background: #fff;
+  margin-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/layouts\/_nav\.scss}line{font-family:\0000312}}
+  .navbar a {
+    color: #00aff0 !important;
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    padding-bottom: 24px !important;
+    padding-top: 20px !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/GLHF\/LEARN\/skyapp\/scss\/layouts\/_nav\.scss}line{font-family:\0000321}}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+  background: #00aff0 !important;
+  color: #fff !important; }
+
+/*# sourceMappingURL=main.css.map */
